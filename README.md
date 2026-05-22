@@ -12,17 +12,64 @@ The extension source code itself is intentionally kept private.
 - Advanced AL trace visualization
 - Trace navigation support
 - Session and execution inspection
-- Improved debugging workflows for AL developers
-- Developer-friendly trace exploration
+- Watch tracking and comparison
+- Trace packaging and session replay
 - Lightweight VS Code integration
+- Optimized workflows for AL developers
 
 ---
 
-## Screenshots
+## Trace Navigator
 
-### Trace Navigator
+Interactive trace navigation with detailed step inspection and scope visualization.
 
-![Trace Navigator](images/trace-navigator.gif)
+![Trace Navigator](images/trace-navigator.png)
+
+---
+
+## Watch Tracking
+
+Inspect and compare watched values during debugging sessions.
+
+![Trace Watches](images/trace-watches.png)
+
+---
+
+## Trace Workflow
+
+Start and stop trace recording directly from VS Code.
+
+### Start Trace
+
+![Start Trace](images/start-trace-message.png)
+
+### Stop Trace
+
+![Stop Trace](images/stop-trace-message.png)
+
+---
+
+## Business Scenario Example
+
+Example workflow while processing a Business Central sales order.
+
+![Business Scenario](images/ship-order-dialog.png)
+
+---
+
+## Session Index
+
+Browse previously recorded sessions directly from the extension.
+
+![First Session](images/first-session.png)
+
+---
+
+## Trace Result Overview
+
+Open and inspect generated trace sessions.
+
+![First Result](images/first-result.png)
 
 ---
 
@@ -47,16 +94,10 @@ This repository intentionally does not contain the extension source code.
 The public repository is used exclusively for:
 
 - documentation
-- screenshots and GIFs
+- screenshots
 - issue tracking
 - changelog publication
 - marketplace support resources
-
----
-
-## Marketplace Notes
-
-README images are hosted through this public support repository to ensure compatibility with the VS Code Marketplace and `vsce` packaging.
 
 ---
 
