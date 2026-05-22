@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general feedback
+    url: https://github.com/FelicePrincipato/al-debug-tracer-support/issues
+    about: Please use GitHub Issues for support questions, bug reports, and feature requests.
